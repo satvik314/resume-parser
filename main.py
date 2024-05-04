@@ -15,6 +15,7 @@ llama3_groq = ChatOpenAI(
 
 def main():
     st.title("XScaleUp Resume")
+    st.subheader("Convert resume -> CSV")
     
     # File uploader
     uploaded_file = st.file_uploader("Choose a PDF file", type="pdf")
