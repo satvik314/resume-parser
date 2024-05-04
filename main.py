@@ -13,8 +13,6 @@ llama3_groq = ChatOpenAI(
 )
 
 
-
-
 def main():
     st.title("XScaleUp Resume")
     
