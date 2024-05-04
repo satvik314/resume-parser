@@ -12,22 +12,7 @@ llama3_groq = ChatOpenAI(
     openai_api_key = st.secrets["GROQ_API_KEY"]
 )
 
-wizardlm_di = ChatOpenAI(model = "microsoft/WizardLM-2-8x22B",
-                      openai_api_key = st.secrets["DEEPINFRA_API_KEY"],
-                      openai_api_base = "https://api.deepinfra.com/v1/openai"
 
-)
-
-llama3_di = ChatOpenAI(model = "meta-llama/Meta-Llama-3-70B-Instruct",
-                      openai_api_key = st.secrets["DEEPINFRA_API_KEY"],
-                      openai_api_base = "https://api.deepinfra.com/v1/openai"
-
-)
-
-
-# resume_text = read_pdf("Vagesh.pdf")
-# resume_info = extract_info(resume_text, llama3_groq)
-# print(resume_info)
 
 
 def main():
