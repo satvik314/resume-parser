@@ -7,12 +7,16 @@ import streamlit as st
 import pandas as pd
 from langchain_openai import ChatOpenAI
 
-# Defining LLM
-llama3_groq = ChatOpenAI(
-    model = "llama3-70b-8192",
-    openai_api_base = "https://api.groq.com/openai/v1",
-    openai_api_key = st.secrets["GROQ_API_KEY"]
-)
+
+
+# # Defining LLM
+# llama3_groq = ChatOpenAI(
+#     model = "llama3-70b-8192",
+#     openai_api_base = "https://api.groq.com/openai/v1",
+#     openai_api_key = st.secrets["GROQ_API_KEY"]
+# )
+
+llm = ChatOpenAI(model = "gpt-3.5-turbo")
 
 
 def read_pdf(file):
@@ -30,7 +34,7 @@ def read_pdf(file):
     return text
 
 
-def extract_info(resume: str, model = llama3_groq):
+def extract_info(resume: str, model = llm):
     """
     Extracts sections from the resume
     :param resume:
