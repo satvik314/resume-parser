@@ -34,9 +34,9 @@ OPENAI_API_KEY = "your_openai_api_key_here"
 Replace "your_openai_api_key_here" with your actual OpenAI API key.
 
 4. Usage
-
+  
 1. Start the Streamlit app:
-
+   
 ```bash
 streamlit run app.py
 ```
