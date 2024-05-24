@@ -14,7 +14,7 @@ This is a Streamlit application that allows you to convert PDF resumes into a CS
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/resume-to-csv.git
+git clone [https://github.com/your-username/resume-to-csv.git](https://github.com/satvik314/resume-parser.git)
 ```
 
 2. Install the required dependencies:
