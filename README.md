@@ -35,13 +35,13 @@ Replace "your_openai_api_key_here" with your actual OpenAI API key.
 
 4. Usage
   
-1. Start the Streamlit app:
+1) Start the Streamlit app:
    
 ```bash
 streamlit run app.py
 ```
 
-2. The app will open in your default web browser. Follow the on-screen instructions to upload PDF resumes and convert them to CSV format.
+2) The app will open in your default web browser. Follow the on-screen instructions to upload PDF resumes and convert them to CSV format.
 
 # Contributing
 
