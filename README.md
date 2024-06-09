@@ -1,4 +1,4 @@
-# XScaleUp Resume - Resume to CSV Converter
+# Resume to CSV Converter
 
 This is a Streamlit application that allows you to convert PDF resumes into a CSV format for easy data analysis and management. The app leverages OpenAI's language model to extract relevant information from the resumes and presents it in a structured manner.
 
